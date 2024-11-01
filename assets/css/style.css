@@ -1,0 +1,1102 @@
+/* Generals.
+-------------------------------------------------------------- */
+
+div {
+    margin: 0;
+}
+
+button,.upc-btn {
+    padding: 4px 4px 4px 4px;
+    border-radius: 2px;
+    border: 0;
+    color: #fff;
+    line-height: 1.3;
+    margin: 0;
+}
+
+a.upc-btn .upc_coupon_icon,a.upc-btn .upc_deal_icon {
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+
+/* Coupon Shortcode styles.
+-------------------------------------------------------------- */
+
+.upc-coupon::after,
+.upc-coupon::before {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.upc-coupon-discount-text {
+    width: 95%;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 4px rgba(34, 34, 34, .2);
+    overflow-wrap: break-word;
+}
+
+.coupon-type {
+    width: 95%;
+    background: #fff;
+    padding: 7px 6px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 2em;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(34, 34, 34, .2);
+}
+
+.deal-type {
+    width: 95%;
+    background: #56b151;
+    padding: 7px 6px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 2em;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(34, 34, 34, .2);
+}
+
+.upc-coupon-content {
+    margin: 0px;
+}
+
+.upc-coupon-header {
+    width: 100%;
+    float: left;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+}
+
+.upc-extra-content {
+    width: 100%;
+    float: left;
+}
+
+.upc_coupon_li_content>.upc-coupon-title {
+    padding: 15px 15px 0;
+}
+
+.upc-coupon-title {
+    width: 100%;
+    font-size: 21px;
+    margin: 5px 0px 10px 0px !important;
+}
+
+.upc-coupon-title a {
+    text-decoration: none !important;
+}
+
+.upc-coupon-code {
+    width: 100%;
+    text-align: center;
+}
+
+.upc-coupon-description {
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 1.6em;
+    font-size: 14px;
+}
+
+.upc-btn {
+    font-size: 13px;
+    border: 2px dashed #ccc;
+    color: #347BAF;
+    background: #FAFAFA;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.upc-coupon-button {
+    margin: 0;
+}
+
+.upc-deal-button {
+    margin: 0;
+}
+
+.upc-coupon-button:hover {
+    color: #347BAF;
+    background-color: #ffffff;
+    border-color: #347BAF;
+}
+
+.upc-deal-button:hover {
+    color: #347BAF;
+    background-color: #ffffff;
+    border-color: #347BAF;
+}
+
+.upc-coupon-expire {
+    color: green;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.upc-coupon-expired {
+    color: red;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.upc_coupon_icon {
+    background: url('../img/coupon-code-24.png') no-repeat top left;
+    display: inline-block;
+    height: 24px;
+    margin: -2px 0px 0 0;
+    vertical-align: text-top;
+    width: 24px;
+}
+
+.upc_deal_icon {
+    background: url('../img/deal-24.png') no-repeat top left;
+    display: inline-block;
+    height: 24px;
+    margin: -2px 3px 0 0;
+    vertical-align: text-top;
+    width: 24px;
+}
+
+
+
+/* Premium Code Stripped by Freemius */
+
+
+
+/* Coupon Widget Styles.
+-------------------------------------------------------------- */
+
+.upc-coupon-widget-title {
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.upc-widget-featured-img {
+    margin-bottom: 5px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+
+/* Extras.
+-------------------------------------------------------------- */
+
+#clear {
+    clear: both;
+}
+
+.upc-countdown-expired {
+    color: red;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    border: 1px solid #333;
+    background-color: #161616;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+/* resets */
+
+.upc-coupon *,
+*:before,
+*:after {
+    box-sizing: border-box !important;
+}
+
+.upc-coupon-one *,
+*:before,
+*:after {
+    box-sizing: border-box !important;
+}
+
+.upc-coupon-two *,
+*:before,
+*:after {
+    box-sizing: border-box !important;
+}
+
+.upc-coupon-three *,
+*:before,
+*:after {
+    box-sizing: border-box !important;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="upc-col-"]
+ {
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+/* Premium Code Stripped by Freemius */
+
+
+@media screen and (max-width: 767px) {
+    .upc-col-1-8 {
+        margin-bottom: 5px;
+        width: 100% !important;
+    }
+    .upc-coupon-discount-text,
+    .coupon-type {
+        box-sizing: border-box;
+        width: 100% !important;
+    }
+    .upc-coupon {
+        padding: 10px;
+    }
+    .upc-col-7-8 {
+        box-sizing: border-box;
+        width: 100% !important;
+    }
+    .upc-coupon-one .upc-col-one-1-4 {
+        margin: 10px 0 0;
+        width: 100%;
+    }
+    .upc-coupon-one-discount-text,
+    .upc-coupon-one .coupon-code {
+        margin-left: 0;
+    }
+    .upc-coupon-one .upc-col-one-1-8 {
+        width: 100%;
+    }
+    .upc-coupon-one .upc-col-one-7-8 {
+        width: 100%;
+    }
+    .upc-coupon-one h4,
+    .upc-coupon-one .upc-coupon-description {
+        text-align: center !important;
+    }
+    .upc-coupon-two .upc-col-two-1-4 {
+        margin-bottom: 8px;
+        width: 100%;
+    }
+    .upc-coupon-two .upc-col-two-3-4 {
+        width: 100%;
+    }
+    .upc-coupon-three-expire,
+    .upc-coupon-three-coupon {
+        text-align: center;
+        width: 100%;
+    }
+    .upc-coupon-three .upc-coupon-description,
+    .upc-coupon-three h4 {
+        text-align: center;
+    }
+}
+
+
+
+/* Premium Code Stripped by Freemius */
+
+
+@media all and ( min-width: 600px) {
+    .upc-col-2-3 {
+        float: left;
+        width: 66.66%;
+    }
+    .upc-col-1-1 {
+        float: left;
+        width: 100%;
+    }
+    .upc-col-1-2 {
+        float: left;
+        width: 50%;
+    }
+    .upc-col-1-3 {
+        float: left;
+        width: 33.33%;
+    }
+    .upc-col-1-4 {
+        float: left;
+        width: 36%;
+    }
+    .upc-col-3-4 {
+        float: left;
+        width: 64%;
+        padding-left: 0px;
+    }
+    .upc-extra-content-full .upc-col-3-4 {
+        padding-right: 0;
+        width: 100%;
+    }
+    .upc-col-1-8 {
+        float: left;
+        width: 150px;
+    }
+    .upc-col-7-8 {
+        float: left;
+        width: -webkit-calc(100% - 150px);
+        width: -moz-calc(100% - 150px);
+        width: calc(100% - 150px);
+    }
+    /*
+    Template one styles.
+    */
+    .upc-col-one-1-4 {
+        float: left;
+        width: 24%;
+        margin-left: 5px;
+    }
+    .upc-col-one-1-8 {
+        float: left;
+        width: 25%;
+    }
+    .upc-col-one-7-8 {
+        float: left;
+        width: 49.5%;
+    }
+    /* template two styles.
+    */
+    .upc-col-two-1-4 {
+        float: left;
+        width: 25%;
+    }
+    .upc-col-two-3-4 {
+        float: left;
+        width: 75%;
+    }
+    /* template three styles.
+    */
+    .upc-col-three-1-4 {
+        float: left;
+        width: 25%;
+    }
+    .upc-col-three-3-4 {
+        float: left;
+        width: 75%;
+    }
+}
+
+
+
+/* Premium Code Stripped by Freemius */
+
+
+
+/*widget elwany*/
+
+.upc-widget .upc-coupon-widget-title {
+    font-weight: bold;
+}
+
+.upc-widget .upc-coupon-description {
+    text-align: center;
+    font-size: 16px;
+}
+
+.upc-widget.upc-coupon-one .upc-coupon-header {
+    border-bottom: 0;
+}
+
+.upc-widget.upc-coupon-one .upc-coupon-one-discount-text {
+    margin: 20px 0;
+}
+
+.upc-widget.upc-coupon-two .upc-coupon-widget-title {
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.upc-widget.upc-coupon-two .upc-coupon-header {
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.upc-widget.upc-coupon-two .upc-coupon-expire {
+    font-size: 16px;
+}
+
+.upc-widget.upc-coupon-two .upc-coupon-expire>span:first-child {
+    color: #222;
+}
+
+.upc-widget .upc-coupon-one-img {
+    max-height: 100%;
+}
+
+.upc-widget.upc-coupon-three .upc-coupon-expire {
+    margin: 20px 0;
+}
+
+.upc-widget-default .upc-coupon-code,
+.upc-widget .upc-coupon-code {
+    text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+    .upc-coupon-one .upc-coupon-code {
+        text-align: center;
+    }
+    .upc-coupon-three .upc-coupon-code {
+        text-align: center;
+    }
+}
+
+
+/*fix bugs*/
+
+.upc_archive_section .upc_coupon_li_top_discount_left {
+    width: auto;
+    float: left;
+    margin: 6px 0;
+}
+
+.upc_archive_section .upc_btn_wr {
+    width: auto;
+    float: right;
+}
+
+.upc-coupon-button-type div.active.coupon-code-wpcd {
+    color: #444444;
+    background: #EBEBEB;
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.06) 10%, transparent 15%, transparent 35%, rgba(0, 0, 0, 0.06) 40%, rgba(0, 0, 0, 0.06) 60%, transparent 65%, transparent 85%, rgba(0, 0, 0, 0.06) 90%) repeat scroll 0 0/6px 6px transparent;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 13px;
+    border: 2px solid #DDDDDD;
+    position: relative;
+    text-decoration: none;
+    min-width: 132px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    .upc_archive_section .upc_btn_wr,
+    .upc_archive_section .upc_coupon_li_top_discount_left {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .upc-coupon-default .upc-coupon-header .upc-col-1-4 {
+        width: auto;
+        float: right;
+    }
+    .upc-coupon-default .upc-coupon-header .upc-col-3-4 {
+        overflow: auto;
+        float: none;
+        width: auto;
+    }
+    .upc-coupon-default .upc-coupon-button-type .coupon-code-wpcd {
+        float: right;
+    }
+}
+
+.hidden,.hide {
+    display: none !important;
+}
+
+
+/*/////////////////////////////////////////////////////////////
+    // Social Sharing Icons \
+///////////////////////////////////////////////////////////// */
+
+.upc-social-share {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+/*/////////////////////////////////////////////////////////////
+    // Social Sharing Icons
+///////////////////////////////////////////////////////////// */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.upc-share-this-product {
+    display: inline-block;
+    width: 15%;
+    height: 30px;
+    padding: 1px 0px;
+    min-width: 68px;
+    margin: 2% .8%;
+    overflow: hidden;
+    -webkit-filter: brightness(90%);
+    -moz-filter: brightness(90%);
+    -ms-filter: brightness(90%);
+    -o-filter: brightness(90%);
+    filter: brightness(90%);
+    transition: all .45s ease-in-out;
+}
+
+.upc-share-this-product:hover {
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);*/
+    border-radius: 3px;
+    -webkit-filter: brightness(120%);
+    -moz-filter: brightness(120%);
+    -ms-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.upc-share-this-product:hover img {
+    left: 32%;
+    transform: scale(1);
+}
+
+.upc-share-this-product:hover span.share-text {
+    opacity: 0;
+    left: 20px;
+    transform: rotateX(90deg) scale(0.3);
+}
+
+.upc-share-this-product a {
+    text-decoration: none;
+}
+
+.upc-share-this-product img {
+    width: 28px;
+    transition: all .5s ease;
+    position: relative;
+    left: 0;
+    transform: scale(0.8);
+    margin-bottom: 0;
+}
+
+.upc-share-this-product .social-share-icon-block span.share-text {
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+    left: -3px;
+    top: -8px;
+    transition: all .45s ease-in-out;
+}
+
+.upc-share-this-product.facebook {
+    background: #527EBF;
+}
+
+.upc-share-this-product.twitter {
+    background: #25C0E2;
+}
+
+.upc-share-this-product.google-plus {
+    background: #DB4A37;
+}
+
+.upc-share-this-product.pinterest {
+    background: #CD2129;
+}
+
+.upc-share-this-product.linkedin {
+    background: #147BB7;
+}
+
+.upc-share-this-product.email {
+    background: #0F75BC;
+}
+
+
+/* social button */
+
+a.upc-btn-social,
+.upc-btn-social {
+    border-radius: 50%;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 54px;
+    line-height: 54px;
+    margin: 8px 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s;
+    -webkit-transition: background-color .3s;
+    width: 54px;
+}
+
+.upc-btn-social .fa,
+.upc-btn-social i {
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition: all .25s;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: scale(1);
+    -webkit-transition: all .25s;
+}
+
+.upc-btn-social:hover,
+.upc-btn-social:focus {
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+.upc-btn-social:hover .fa,
+.upc-btn-social:focus .fa,
+.upc-btn-social:hover i,
+.upc-btn-social:focus i {
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+}
+
+.upc-btn-social.upc-btn-xs {
+    font-size: 11px;
+    height: 32px;
+    line-height: 32px;
+    margin: 6px 4px;
+    width: 32px;
+    vertical-align: middle;
+}
+
+.upc-btn-social.btn-sm {
+    font-size: 13px;
+    height: 36px;
+    line-height: 36px;
+    margin: 6px 4px;
+    width: 36px;
+}
+
+.upc-btn-social.btn-lg {
+    font-size: 22px;
+    height: 72px;
+    line-height: 40px;
+    margin: 10px 6px;
+    width: 72px;
+}
+
+.upc-btn-facebook {
+    background-color: #3b5998;
+}
+
+.upc-btn-facebook:hover {
+    background-color: #4c70ba;
+}
+
+.upc-btn-google-plus {
+    background-color: #dd4b39;
+}
+
+.upc-btn-google-plus:hover {
+    background-color: #e47365;
+}
+
+.upc-btn-twitter {
+    background-color: #55acee;
+}
+
+.upc-btn-twitter:hover {
+    background-color: #83c3f3;
+}
+
+.upc-share-buttons-container {
+    padding-left: 4px;
+    margin-top: 15px;
+    width: 50%;
+    box-sizing: border-box !important;
+    display: inline-block;
+    /*    background: #FBFCFC;*/
+}
+
+.share-w {
+    font-size: 12px;
+    font-family: Inherit;
+    font-weight: 400;
+    font-style: normal;
+    color: #444;
+}
+
+.upc-share-buttons-container a {
+    position: relative;
+}
+
+.upc-share-buttons-container i>img.
+
+upc-svg {
+    position: absolute;
+    height: 13px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upc-share-buttons-container a:hover img.
+
+upc-svg {
+    height: 15px;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    transition: all .25s;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all .25s;
+}
+
+
+/* vote system */
+
+.upc-widget .
+
+upc-vote-wrapper,
+.upc-widget-default .
+
+upc-vote-wrapper,
+.upc-coupon-six-mobile .upc-vote-wrapper {
+    display: inherit;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    float: none;
+}
+
+.upc-vote-wrapper {
+    box-sizing: border-box !important;
+    text-align: right;
+    vertical-align: sub;
+    display: inline-block;
+    padding-right: 10px;
+    float: right;
+    padding-top: 22px;
+    padding-bottom: 10px;
+}
+
+.upc-vote-wrapper a {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    font-size: 16px;
+}
+
+@keyframes tooltips-vertical {
+    from {
+        transform: translate(0%, -20%);
+        display: none;
+    }
+    To {
+        opacity: 1;
+        display: block;
+    }
+}
+
+.upc-vote-wrapper a:hover .
+
+upc-tooltip {
+    animation: tooltips-vertical 300ms ease-out forwards;
+}
+
+.upc-vote-wrapper a>.upc-tooltip {
+    position: absolute;
+    background: #191919;
+    text-align: center;
+    z-index: 2;
+    border-radius: 2px;
+    line-height: 21px;
+    color: white;
+    font-size: 14px;
+    width: 80px;
+    top: -30px;
+    right: -5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.upc-widget .upc-vote-wrapper a>.
+
+upc-tooltip:after {
+    bottom: -5px;
+}
+
+.upc-vote-wrapper a>.upc-tooltip:after {
+    content: '';
+    position: absolute;
+    right: 4px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #191919
+}
+
+.upc-vote-wrapper>a.upc-vote-down {
+    bottom: -2px;
+}
+
+.upc-vote-wrapper>a.upc-vote-down>.
+
+upc-thumbs-down {
+    vertical-align: middle;
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+div.upc-vote-wrapper div.upc-thumbs-down,
+div.upc-vote-wrapper div.upc-thumbs-up {
+    display: inline-block;
+    width: 20px;
+}
+
+div.upc-vote-wrapper div>img {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upc-vote-wrapper span.upc-vote-percent {
+    font-size: 10px;
+    color: #999;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+/* my custom style 
+ shortcode sryle sheet */
+ 
+ /*  Style for vertical view template */
+ 
+ 
+ 
+ 
+.bg
+{
+background-image: url("img/bg.jpg") !important;
+	
+}
+
+.section {
+	position:relative;
+	width:100%;
+}
+.background-grey {
+	background-color:#fbfbfb;
+}
+.z-bigger-2  {
+	z-index:1010;
+}
+.transform-y-120,
+{
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
+}
+.transform-y-120.transform-on-mob{
+	-webkit-transform: translateY(-120px);
+	-moz-transform: translateY(-120px);
+	-ms-transform: translateY(-120px);
+	-o-transform: translateY(-120px);
+	transform: translateY(-120px);
+}
+.services-box-1{
+	position: relative;
+	width: 100%;
+	padding: 20px 30px 30px 30px;
+	border-radius: 0.35rem;
+}
+.background-dark {
+	background-color:#fff;
+
+}
+.color-white {
+	color:#fff;
+}
+.para
+{
+	text-align:center;
+	
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #3333cc;
+  border-color: #fff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ff9966;
+  border-color: #ff9966;
+}
+
+ .drop-shadow:hover
+{
+ box-shadow: 0px 6px 25px 0px rgba(0, 0, 0, 0.3);
+}
+.top-offer
+{
+	padding-top: 80px;
+}
+.vertcial_type
+{
+	color:#3333cc;
+}
+ /* Style end  */
+ 
+ 
+ 
+ .upc-coupon {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 16px #ccc;
+padding:25px 10px;
+}
+
+
+
+
+
+ /*  template v1 style  */
+ .upc-coupon1{
+
+    border: 2px dashed #29211d;
+ }
+ .coupon-type1,.deal-type1{
+	 
+	 width: 95%;
+    background: #4c6aaf;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 2em;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(34, 34, 34, .2);
+ }
+ 
+ 
+ /* end template 1 style */
+
+/* pop up modal style */
+
+.get_modal_content{
+	    border: 3px dashed #6034bd;
+}
+
+.input_box_class{
+	text-align:center;
+}
+.pop_up_content{
+	
+	background-color: #673AB7;
+    color: white;
+}
+.btn{
+	    background: #5a37984a;
+}
+
+#upc_myInput{
+	
+  /*  padding: 5px;  */
+   /* margin: 15px; */
+}
+
+.upc_imag_tag{
+	  padding:5px 10px 15px;
+ }
+.upc_modal_heading  {
+	   color:#4709b5;
+	       padding-left: 10px;
+         
+ }
+  
+.modal-header
+    {
+  /* display: -webkit-box;
+-webkit-box-pack: center;
+*/	   
+	   }
+ .modal{
+	 margin:30px;
+ }
+ 
+ .expired_date{
+	
+    font-size: 22px;
+    color: #FFEB3B;
+ }
+ 
+
+ .popup_footer {
+        justify-content: center;
+    padding: 0.5rem;
+	
+ }
+ .popup_footer_btn{
+	 color:#3f51b5;
+ }
+
+
+ @media screen and (max-width: 385px) {
+   #modal_close_btn{
+	 display:none;
+ }
+}
+ 
+/* end pop up modal  style */
+
+
+/* style for customdashboard */
+
+
+/* end custom dashboard */
+
+/* style for new templayte */
+.descriptioncontent {
+    background-color: #ff8800;
+       padding: 5px 72px 6px;
+    cursor: pointer;
+	    font-size: 17px; 
+}
+
+.hide{
+	display:none;
+}
+.coupon_content{
+	    padding: 20px;
+}
